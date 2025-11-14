@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Consora — Coming Soon</title>
+  <link rel="icon" type="image/png" href="./assets/logo.png" />
+  <style>
+    :root {
+      --accent-start: #7c3aed;
+      --accent-end: #3b82f6;
+      --text: #e8eaff;
+      --subtext: #c3c7ff;
+      --bg: #0a0f1c;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, var(--accent-start) 0%, var(--accent-end) 100%);
+      font-family: Inter, sans-serif;
+      color: var(--text);
+    }
+    .box {
+      text-align: center;
+      padding: 40px 48px;
+      background: rgba(10, 15, 28, 0.55);
+      backdrop-filter: blur(14px);
+      border-radius: 20px;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+    }
+    h1 {
+      font-size: 46px;
+      margin: 0;
+      font-weight: 600;
+      background: linear-gradient(90deg, var(--accent-start), var(--accent-end));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p {
+      margin-top: 14px;
+      font-size: 18px;
+      color: var(--subtext);
+    }
+    p, h1, img, div, body {
+      cursor: default;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img src="./assets/logo.png" alt="Consora Logo" style="width:120px;margin-bottom:20px;user-select:none;" />
+    <h1 style="cursor:default;">Consora</h1>
+    <p style="cursor:default;">Coming Soon</p>
+  </div>
+</body>
+</html>
